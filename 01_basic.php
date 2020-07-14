@@ -13,6 +13,9 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos id saepe, officia ullam incidunt pariatur distinctio commodi quibusdam consequuntur, dolorem perferendis deserunt debitis!</p>
 
         <?php
+        // Constant in PHP -- Global
+        define('PI', 3.14256);
+
         echo "this is good and we like good";
         echo "<br>";
 
@@ -58,7 +61,7 @@
         echo var_dump(1==4);
         echo "<br>";
 
-        // Incement echo and decrement operator
+        // Incement and decrement operator
         echo $newVar++;
         echo "<br>";
         echo $newVar--;
@@ -71,8 +74,34 @@
         // Logical Opeartor
         // and || or || xor || not(!)
 
-        
+        $myVar2 = (false) && (true);
+        echo var_dump($myVar2);
+        echo "<br>";
 
+        $myVar3 = (false) || (true);
+        echo var_dump($myVar3);
+        echo "<br>";
+
+        $myVar4 = !(true);
+        echo var_dump($myVar4);
+        echo "<br>";
+        echo "<br>";
+
+        // 4. Data Types
+        $var = "This is a String";
+        echo var_dump($var);
+        echo "<br>";
+
+        $var =34;
+        echo var_dump($var);
+        echo "<br>";
+
+        $var = 55.6;
+        echo var_dump($var);
+        echo "<br>";
+
+        echo PI;
+        echo "<br>";
 
 
         ?>
