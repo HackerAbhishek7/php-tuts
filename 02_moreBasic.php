@@ -24,6 +24,7 @@
        <p>Your Party status Is Here</p>
         <?php
 
+        // 1. If-else 
         $age = 6;
         if($age > 18){
             echo "you can go to party";
@@ -34,6 +35,39 @@
         else {
             echo "you cannot go to party :)";
         }
+
+        echo "<br>";
+
+
+        // 2. Arrays 
+        $languages = array("Python","C++","PHP" );
+        echo $languages[0];
+        echo "<br>";
+
+        echo count($languages);
+        echo "<br>";
+
+
+        // 3. Loops
+        $a = 0;
+        while ($a < count($languages)) {
+            echo "the value of a is:";
+            echo "<br>";
+            echo $languages[$a];
+            echo "<br>";
+            $a++;
+        }
+
+        for ($age=0; $age <10 ; $age+=2) { 
+            echo $age;
+            echo "<br>";
+        }
+
+        foreach ($languages as $values ) {
+            echo "<br> The value is from for-each is:";
+            echo $values;
+        }
+
 
 
         ?>
