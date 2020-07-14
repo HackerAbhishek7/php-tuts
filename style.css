@@ -1,0 +1,52 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.container{
+    max-width: 80%;
+    background-color: rgb(173, 117, 226);
+    padding: 34px;
+    margin: auto;
+    
+}
+
+.container h3{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+    
+}
+
+input,textarea{
+    display: block;
+    width: 80%;
+    margin: 8px 0px;
+    padding: 4px ;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+  
+}
+form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 5px;
+    font-size: 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    
+}
