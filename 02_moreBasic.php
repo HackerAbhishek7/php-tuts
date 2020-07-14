@@ -38,7 +38,6 @@
 
         echo "<br>";
 
-
         // 2. Arrays 
         $languages = array("Python","C++","PHP" );
         echo $languages[0];
@@ -67,6 +66,24 @@
             echo "<br> The value is from for-each is:";
             echo $values;
         }
+
+        // 4. Functions
+        function print1(){
+
+            echo "<br>";
+            echo "FIVE";
+            echo "<br>";
+        }
+        print1();
+
+        function number($number)
+        {
+            echo "<br>Your number is:";
+            echo $number;
+        }
+
+        number(6);
+
 
 
 
